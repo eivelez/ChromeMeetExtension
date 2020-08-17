@@ -1,0 +1,10 @@
+{
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://meet.google.com/*" ]
+   } ],
+   "description": "Silencia a todos los usuarios.",
+   "manifest_version": 2,
+   "name": "MutEXT",
+   "version": "1.0"
+}
